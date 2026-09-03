@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="593c56c8-dd26-40eb-abf8-07004e7ff0d0">
+  <producedTypes>
+    <objectType typeId="95ba8d2a-a05d-4727-9e75-ccbc1bdec65d" valueTypeId="60914c0f-1bbb-45be-b980-d8741d09ff53"/>
+    <refType typeId="4e8a8a4e-b2e4-4258-a104-364c7b06a764" valueTypeId="c0de9d6c-705f-45f5-aac1-a6fbcb49f214"/>
+    <selectionType typeId="ab0145eb-419d-4b7e-bfc4-07e137818cc6" valueTypeId="d5214e21-4730-4a4c-a873-48da6f71eb2a"/>
+    <listType typeId="d3b931f8-128d-4a64-8041-751217b62e8f" valueTypeId="f5a03eb1-3078-4250-82dc-179bfa819916"/>
+    <managerType typeId="370fe90c-e5b1-4f92-ab04-8201028eadd6" valueTypeId="02f5e4bf-7219-4ea9-8a5f-305865e88808"/>
+  </producedTypes>
+  <name>ВКМ_Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_Сотрудники.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВКМ_Сотрудники.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сотрудник</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d787cb91-f636-4918-9b80-c5d8d2c4b173">
+    <name>ИдентификаторПользователяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя ИБ</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
