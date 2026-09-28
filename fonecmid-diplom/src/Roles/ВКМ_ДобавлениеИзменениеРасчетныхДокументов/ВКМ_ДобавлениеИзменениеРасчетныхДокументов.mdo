@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e82678d-39e6-4dda-9a02-895a2f99c74f">
+  <name>ВКМ_ДобавлениеИзменениеРасчетныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение расчетных документов</value>
+  </synonym>
+</mdclass:Role>
