@@ -1131,6 +1131,12 @@
           <common>true</common>
         </userVisible>
       </cmiFragmentRecord>
+      <cmiFragmentRecord>
+        <command>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardCommand.OpenByRecorder</command>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
     </navigationPanel>
     <commandBar/>
   </commandInterface>
